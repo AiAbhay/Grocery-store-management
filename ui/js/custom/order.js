@@ -65,7 +65,7 @@ $("#saveOrder").on("click", function(){
                     product_id: element.value,
                     quantity: null,
                     total_price: null
-                });
+                });                
                 break;
             case 'qty':
                 lastElement = requestPayload.order_details[requestPayload.order_details.length-1];
